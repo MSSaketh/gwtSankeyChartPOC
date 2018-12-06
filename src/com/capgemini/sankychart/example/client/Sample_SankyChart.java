@@ -42,18 +42,24 @@ public class Sample_SankyChart implements EntryPoint {
 				String[] from = result.getFrom();
 				String[] to = result.getTo();
 				int[] weight = result.getWeight();
+				String[] from_to = result.getFrom_to();
 
 				// Prepare the data
 				DataTable data = DataTable.create();
 				data.addColumn(ColumnType.STRING, "From");
 				data.addColumn(ColumnType.STRING, "To");
 				data.addColumn(ColumnType.NUMBER, "Weight");
-
-				for (int i = 0; i < from.length; i++) {
-					for (int j = 0; j < to.length; j++) {
-//						for (int c = 0; c < weight.length; c++) {
-							data.addRow(from[i], to[j], weight[j]);
-//						}
+				
+				for(int i = 0; i < from.length; i++) {
+					for(int j = 0; j < to.length; j++) {
+						String str = from[i]+to[j];
+						for(int c = 0; c < from_to.length; c++) {
+							if(str.equals(from_to[c])) {
+								System.out.println(weight[c]);
+								data.addRow(from[i], to[j], weight[c]);
+							}
+						}
+						
 					}
 				}
 				chart.draw(data);
@@ -69,37 +75,6 @@ public class Sample_SankyChart implements EntryPoint {
 		};
 
 		service.csvRead("C:\\Users\\smaringa\\Documents\\saketh workspace\\sankyChart-poc-master\\Book3.csv", callBack);
-
-		// Prepare the data
-
-//	  DataTable data = DataTable.create(); data.addColumn(ColumnType.STRING,
-//		  "From"); data.addColumn(ColumnType.STRING, "To");
-//		  data.addColumn(ColumnType.NUMBER, "Weight");
-
-		/*
-		 * data.addRow("TSTR", "Non SCR", 20); data.addRow("TSTR", "SCR", 20);
-		 * 
-		 * data.addRow("SCR", "cancelled", 10); data.addRow("SCR", "Convert to SRO",
-		 * 10); data.addRow("SCR", "Down Point", 10); data.addRow("SCR", "Truck roll",
-		 * 10);
-		 * 
-		 * data.addRow("Non SCR", "Truck Roll", 20); data.addRow("Non SCR", "Cancelled",
-		 * 20);
-		 * 
-		 * data.addRow("cancelled", "Truck Roll", 6); data.addRow("cancelled",
-		 * "Cancelled", 6);
-		 * 
-		 * data.addRow("Truck roll", "Truck Roll", 6); data.addRow("Truck roll",
-		 * "Cancelled", 6);
-		 * 
-		 * data.addRow("Down Point", "Truck Roll", 6); data.addRow("Down Point",
-		 * "Cancelled", 6);
-		 * 
-		 * data.addRow("Convert to SRO", "Truck Roll", 6); data.addRow("Convert to SRO",
-		 * "Cancelled", 6);
-		 */
-
-		// Draw the chart
 
 	}
 

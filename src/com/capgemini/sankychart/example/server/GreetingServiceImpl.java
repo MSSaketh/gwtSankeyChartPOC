@@ -114,6 +114,7 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements Greetin
 		model.setFrom(finalFrom);
 		model.setTo(finalTo);
 		model.setWeight(totalCount);
+		model.setFrom_to(finalCount);
 		System.out.println(model.getFrom().toString());
 		return model;
 	}

@@ -15,15 +15,18 @@ public class CSVmodel implements Serializable {
 
 	private int[] weight;
 
+	private String[] from_to;
+
 	public CSVmodel() {
 		super();
 	}
 
-	public CSVmodel(String[] from, String[] to, int[] weight) {
+	public CSVmodel(String[] from, String[] to, int[] weight, String[] from_to) {
 		super();
 		this.from = from;
 		this.to = to;
 		this.weight = weight;
+		this.from_to = from_to;
 	}
 
 	public String[] getFrom() {
@@ -48,6 +51,14 @@ public class CSVmodel implements Serializable {
 
 	public void setWeight(int[] weight) {
 		this.weight = weight;
+	}
+
+	public String[] getFrom_to() {
+		return from_to;
+	}
+
+	public void setFrom_to(String[] from_to) {
+		this.from_to = from_to;
 	}
 
 }

@@ -107,13 +107,14 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements Greetin
 		csvList.add(finalTo);
 		csvList.add(finalCount);
 
-		System.out.println(csvList);
+//		System.out.println(csvList.to);
 //		Object[] obj = new Object[] { finalFrom, finalTo, totalCount };
 
 		CSVmodel model = new CSVmodel();
 		model.setFrom(finalFrom);
 		model.setTo(finalTo);
 		model.setWeight(totalCount);
+		System.out.println(model.getFrom().toString());
 		return model;
 	}
 }

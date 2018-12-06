@@ -1,0 +1,3 @@
+# Module sample_sankychart
+# RPC service class, partial path of RPC policy file
+com.capgemini.sankychart.example.client.GreetingService, A8FC7FAA5F8754C492D32CB9E7F28240.gwt.rpc

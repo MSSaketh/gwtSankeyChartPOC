@@ -7,12 +7,12 @@
 
   <!-- Servlets -->
   <servlet>
-    <servlet-name>greetServlet</servlet-name>
-    <servlet-class>com.capgemini.sankychart.example.server.GreetingServiceImpl</servlet-class>
+    <servlet-name>SankeyServiceImpl</servlet-name>
+    <servlet-class>com.capgemini.sankychart.example.server.SankeyServiceImpl</servlet-class>
   </servlet>
   
   <servlet-mapping>
-    <servlet-name>greetServlet</servlet-name>
+    <servlet-name>SankeyServiceImpl</servlet-name>
     <url-pattern>/sample_sankychart/greet</url-pattern>
   </servlet-mapping>
   

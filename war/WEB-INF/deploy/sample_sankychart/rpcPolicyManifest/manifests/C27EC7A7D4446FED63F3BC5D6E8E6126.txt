@@ -1,2 +1,0 @@
-serviceClass: com.capgemini.sankychart.example.client.GreetingService
-path: A8FC7FAA5F8754C492D32CB9E7F28240.gwt.rpc

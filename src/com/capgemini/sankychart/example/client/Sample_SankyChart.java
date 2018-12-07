@@ -17,7 +17,7 @@ import com.googlecode.gwt.charts.client.sankey.Sankey;
 public class Sample_SankyChart implements EntryPoint {
 
 	private Sankey chart;
-	private GreetingServiceAsync service = (GreetingServiceAsync) GWT.create(GreetingService.class);
+	private SankeyServiceAsync service = (SankeyServiceAsync) GWT.create(SankeyService.class);
 
 	private void initialize() {
 		ChartLoader chartLoader = new ChartLoader(ChartPackage.SANKEY);
@@ -34,10 +34,11 @@ public class Sample_SankyChart implements EntryPoint {
 	}
 
 	private void draw() {
-		AsyncCallback<CSVmodel> callBack = new AsyncCallback<CSVmodel>() {
+
+		AsyncCallback<SankeyModel> callBack = new AsyncCallback<SankeyModel>() {
 
 			@Override
-			public void onSuccess(CSVmodel result) {
+			public void onSuccess(SankeyModel result) {
 
 				String[] from = result.getFrom();
 				String[] to = result.getTo();
@@ -49,17 +50,17 @@ public class Sample_SankyChart implements EntryPoint {
 				data.addColumn(ColumnType.STRING, "From");
 				data.addColumn(ColumnType.STRING, "To");
 				data.addColumn(ColumnType.NUMBER, "Weight");
-				
-				for(int i = 0; i < from.length; i++) {
-					for(int j = 0; j < to.length; j++) {
-						String str = from[i]+to[j];
-						for(int c = 0; c < from_to.length; c++) {
-							if(str.equals(from_to[c])) {
+
+				for (int i = 0; i < from.length; i++) {
+					for (int j = 0; j < to.length; j++) {
+						String str = from[i] + to[j];
+						for (int c = 0; c < from_to.length; c++) {
+							if (str.equals(from_to[c])) {
 								System.out.println(weight[c]);
 								data.addRow(from[i], to[j], weight[c]);
 							}
 						}
-						
+
 					}
 				}
 				chart.draw(data);
@@ -70,11 +71,11 @@ public class Sample_SankyChart implements EntryPoint {
 			@Override
 			public void onFailure(Throwable caught) {
 
-				Window.alert("ERROR");
+				Window.alert("ERROR!!");
 			}
 		};
 
-		service.csvRead("C:\\Users\\smaringa\\Documents\\saketh workspace\\sankyChart-poc-master\\Book3.csv", callBack);
+		service.csvRead("..\\Book3.csv", callBack);
 
 	}
 

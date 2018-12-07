@@ -9,10 +9,11 @@ h1 {
   margin: 40px 0px 70px;
   text-align: center;
 }
-body{
-	align-items: center;
-}
 
+
+div{
+	align-content: center;
+}
 .sendButton {
   display: block;
   font-size: 16pt;

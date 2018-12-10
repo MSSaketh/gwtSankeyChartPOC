@@ -24,7 +24,6 @@ public class Sample_SankyChart implements EntryPoint {
 		chartLoader.loadApi(new Runnable() {
 			public void run() {
 				// Create and attach the chart
-
 				chart = new Sankey();
 				RootPanel.get().add(chart);
 				draw();
@@ -49,14 +48,13 @@ public class Sample_SankyChart implements EntryPoint {
 				DataTable data = DataTable.create();
 				data.addColumn(ColumnType.STRING, "From");
 				data.addColumn(ColumnType.STRING, "To");
-				data.addColumn(ColumnType.NUMBER, "Weight");
+				data.addColumn(ColumnType.NUMBER, "Count");
 
 				for (int i = 0; i < from.length; i++) {
 					for (int j = 0; j < to.length; j++) {
 						String str = from[i] + to[j];
 						for (int c = 0; c < from_to.length; c++) {
 							if (str.equals(from_to[c])) {
-								System.out.println(weight[c]);
 								data.addRow(from[i], to[j], weight[c]);
 							}
 						}
@@ -75,7 +73,7 @@ public class Sample_SankyChart implements EntryPoint {
 			}
 		};
 
-		service.csvRead("..\\Book3.csv", callBack);
+		service.csvRead("..\\Book.csv", callBack);
 
 	}
 

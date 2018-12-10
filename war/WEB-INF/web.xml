@@ -13,7 +13,7 @@
   
   <servlet-mapping>
     <servlet-name>SankeyServiceImpl</servlet-name>
-    <url-pattern>/sample_sankychart/greet</url-pattern>
+    <url-pattern>/sample_sankychart/sankey</url-pattern>
   </servlet-mapping>
   
   <!-- Default page to serve -->

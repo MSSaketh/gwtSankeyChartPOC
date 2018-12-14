@@ -1,3 +1,0 @@
-# Module sankychartPOC
-# RPC service class, partial path of RPC policy file
-com.capgemini.sankychart.example.client.SankeyService, 29BCE1322F9326CDEB72A50721BBF56E.gwt.rpc

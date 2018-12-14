@@ -28,6 +28,7 @@ public class SankeyServiceImpl extends RemoteServiceServlet implements SankeySer
 		List<String> dest = new ArrayList<String>();
 		List<String> src_dest = new ArrayList<String>();
 		CSVReader reader;
+		System.out.println(path);
 		try {
 			String strFile = path;
 			reader = new CSVReader(new FileReader(strFile));

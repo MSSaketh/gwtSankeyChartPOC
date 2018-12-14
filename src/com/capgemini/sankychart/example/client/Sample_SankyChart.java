@@ -64,6 +64,7 @@ public class Sample_SankyChart implements EntryPoint {
 				chart.draw(data);
 				chart.setWidth("700px");
 				chart.setHeight("400px");
+
 			}
 
 			@Override
@@ -72,8 +73,9 @@ public class Sample_SankyChart implements EntryPoint {
 				Window.alert("ERROR!!");
 			}
 		};
-
-		service.csvRead("..\\Book.csv", callBack);
+		String csvPath = GWT.getModuleBaseURL() + "Book.csv";
+		System.out.println(csvPath);
+		service.csvRead(csvPath, callBack);
 
 	}
 

@@ -1,2 +1,0 @@
-serviceClass: com.capgemini.sankychart.example.client.SankeyService
-path: 29BCE1322F9326CDEB72A50721BBF56E.gwt.rpc

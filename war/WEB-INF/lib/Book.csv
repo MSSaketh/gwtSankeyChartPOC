@@ -1,0 +1,125 @@
+Date,Dim-1,Dim-2,OrderCount
+1-Oct-18,Non SCR,Truck Roll,20000
+1-Oct-18,Non SCR,Cancelled,10000
+2-Oct-18,Non SCR,Truck Roll,10000
+2-Oct-18,Non SCR,Cancelled,11000
+3-Oct-18,Non SCR,Truck Roll,9000
+3-Oct-18,Non SCR,Cancelled,24000
+4-Oct-18,Non SCR,Truck Roll,4500
+4-Oct-18,Non SCR,Cancelled,3000
+5-Oct-18,Non SCR,Truck Roll,8000
+5-Oct-18,Non SCR,Cancelled,23456
+6-Oct-18,Non SCR,Truck Roll,4000
+6-Oct-18,Non SCR,Cancelled,11000
+7-Oct-18,Non SCR,Truck Roll,20000
+7-Oct-18,Non SCR,Cancelled,14500
+8-Oct-18,Non SCR,Truck Roll,11000
+8-Oct-18,Non SCR,Cancelled,23000
+9-Oct-18,Non SCR,Truck Roll,55000
+9-Oct-18,Non SCR,Cancelled,12000
+10-Oct-18,Non SCR,Truck Roll,5500
+10-Oct-18,Non SCR,Cancelled,8900
+11-Oct-18,Non SCR,Truck Roll,2345
+11-Oct-18,Non SCR,Cancelled,23456
+12-Oct-18,Non SCR,Truck Roll,13000
+12-Oct-18,Non SCR,Cancelled,425
+13-Oct-18,Non SCR,Truck Roll,12000
+13-Oct-18,Non SCR,Cancelled,3456
+14-Oct-18,Non SCR,Truck Roll,11000
+14-Oct-18,Non SCR,Cancelled,7890
+15-Oct-18,Non SCR,Truck Roll,34000
+15-Oct-18,Non SCR,Cancelled,1234
+16-Oct-18,Non SCR,Truck Roll,23000
+16-Oct-18,Non SCR,Cancelled,4567
+17-Oct-18,Non SCR,Truck Roll,12000
+17-Oct-18,Non SCR,Cancelled,8901
+18-Oct-18,Non SCR,Truck Roll,14000
+18-Oct-18,Non SCR,Cancelled,12000
+19-Oct-18,Non SCR,Truck Roll,40000
+19-Oct-18,Non SCR,Cancelled,12000
+20-Oct-18,Non SCR,Truck Roll,20000
+20-Oct-18,Non SCR,Cancelled,8900
+18-Oct,SCR Intake,Truck Roll,20000
+18-Oct,SCR Intake,Cancelled,10000
+18-Oct,SCR Intake,Down Point,10000
+18-Oct,SCR Intake,Conver to SRO,11000
+18-Oct,SCR Intake,Truck Roll,9000
+18-Oct,SCR Intake,Cancelled,24000
+18-Oct,SCR Intake,Down Point,4500
+18-Oct,SCR Intake,Conver to SRO,3000
+18-Oct,SCR Intake,Truck Roll,8000
+18-Oct,SCR Intake,Cancelled,23456
+18-Oct,SCR Intake,Down Point,4000
+18-Oct,SCR Intake,Conver to SRO,11000
+18-Oct,SCR Intake,Truck Roll,20000
+18-Oct,SCR Intake,Cancelled,14500
+18-Oct,SCR Intake,Down Point,11000
+18-Oct,SCR Intake,Conver to SRO,23000
+18-Oct,SCR Intake,Truck Roll,55000
+18-Oct,SCR Intake,Cancelled,12000
+18-Oct,SCR Intake,Down Point,5500
+18-Oct,SCR Intake,Conver to SRO,8900
+18-Oct,SCR Intake,Truck Roll,2345
+18-Oct,SCR Intake,Cancelled,23456
+18-Oct,SCR Intake,Down Point,13000
+18-Oct,SCR Intake,Conver to SRO,425
+18-Oct,SCR Intake,Truck Roll,12000
+18-Oct,SCR Intake,Cancelled,3456
+18-Oct,SCR Intake,Down Point,11000
+18-Oct,SCR Intake,Conver to SRO,7890
+18-Oct,SCR Intake,Truck Roll,34000
+18-Oct,SCR Intake,Cancelled,1234
+18-Oct,SCR Intake,Down Point,23000
+18-Oct,SCR Intake,Conver to SRO,4567
+18-Oct,SCR Intake,Truck Roll,12000
+18-Oct,SCR Intake,Cancelled,8901
+18-Oct,SCR Intake,Down Point,14000
+18-Oct,SCR Intake,Conver to SRO,12000
+18-Oct,SCR Intake,Truck Roll,40000
+18-Oct,SCR Intake,Cancelled,12000
+18-Oct,SCR Intake,Down Point,20000
+18-Oct,SCR Intake,Conver to SRO,8900
+18-Oct,Truck Roll,Total Truck Roll,20000
+18-Oct,Truck Roll,Total Cancelled,30000
+18-Oct,Cancelled,Total Truck Roll,50000
+18-Oct,Cancelled,Total Cancelled,2000
+18-Oct,Down Point,Total Truck Roll,10000
+18-Oct,Down Point,Total Cancelled,14970
+18-Oct,Conver to SRO,Total Truck Roll,11000
+18-Oct,Conver to SRO,Total Cancelled,3986
+18-Oct,Truck Roll,Total Truck Roll,20000
+18-Oct,Truck Roll,Total Cancelled,30000
+18-Oct,Cancelled,Total Truck Roll,50000
+18-Oct,Cancelled,Total Cancelled,2000
+18-Oct,Down Point,Total Truck Roll,10000
+18-Oct,Down Point,Total Cancelled,14970
+18-Oct,Conver to SRO,Total Truck Roll,11000
+18-Oct,Conver to SRO,Total Cancelled,3986
+18-Oct,Truck Roll,Total Truck Roll,20000
+18-Oct,Truck Roll,Total Cancelled,14500
+18-Oct,Cancelled,Total Truck Roll,11000
+18-Oct,Cancelled,Total Cancelled,23000
+18-Oct,Down Point,Total Truck Roll,55000
+18-Oct,Down Point,Total Cancelled,12000
+18-Oct,Conver to SRO,Total Truck Roll,5500
+18-Oct,Conver to SRO,Total Cancelled,8900
+18-Oct,Truck Roll,Total Truck Roll,2345
+18-Oct,Truck Roll,Total Cancelled,23456
+18-Oct,Cancelled,Total Truck Roll,13000
+18-Oct,Cancelled,Total Cancelled,425
+18-Oct,Down Point,Total Truck Roll,12000
+18-Oct,Down Point,Total Cancelled,3456
+18-Oct,Conver to SRO,Total Truck Roll,11000
+18-Oct,Conver to SRO,Total Cancelled,7890
+18-Oct,Truck Roll,Total Truck Roll,34000
+18-Oct,Truck Roll,Total Cancelled,1234
+18-Oct,Cancelled,Total Truck Roll,23000
+18-Oct,Cancelled,Total Cancelled,4567
+18-Oct,Down Point,Total Truck Roll,12000
+18-Oct,Down Point,Total Cancelled,8901
+18-Oct,Conver to SRO,Total Truck Roll,14000
+18-Oct,Conver to SRO,Total Cancelled,12000
+18-Oct,Truck Roll,Total Truck Roll,40000
+18-Oct,Truck Roll,Total Cancelled,12000
+18-Oct,Cancelled,Total Truck Roll,20000
+18-Oct,Cancelled,Total Cancelled,8900
